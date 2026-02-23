@@ -1,25 +1,25 @@
 # CSV Downloader To Google Drive (Desktop → Cloud)
 
-Downloads a web-hosted csv file (unreachable via Google Sheets Formulas) to a Google Drive (Desktop Application) folder. Incorporates IFTTT or a similar service.
+Python Script that downloads a web-hosted csv file (unreachable via Google Sheets Formulas) to a Google Drive (Desktop Application) folder. Incorporates IFTTT or a similar service.
 
 ## Install
 
 Download and install Google Drive for Desktop
 https://ipv4.google.com/intl/en_zm/drive/download/
 
-## Configure download.sh
+## Configure download.py
 
-###Edit FILE_URL of `download.sh`:
+### Edit FILE_URL of `download.py`:
 
-```bash
+```python
 
 FILE_URL="https://www.aphis.usda.gov/sites/default/files/awa-hpa-actions.csv"
 
 ```
 
-###Edit TARGET_DIR of `download.sh`:
+### Edit TARGET_DIR of `download.py`:
 
-```bash
+```python
 
 TARGET_DIR="/Users/XXXX/My Drive/IFTTT/aphis_usda_gov_actions/csv"
 
