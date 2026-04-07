@@ -1,0 +1,51 @@
+// Config / Algebra
+
+{
+  "monitor_name": "CSV Downloader",
+
+  // --- paths ---
+  "state_file": "downloader_state.json",
+  "log_file": "downloader.log",
+  // "data_directory": "data",
+  // "baseline_file": "",
+
+  // --- csv downloader ---
+  "csv_file_url": "https://www.aphis.usda.gov/sites/default/files/awa-hpa-actions.csv",
+  "csv_filename": "awa-hpa-actions.csv",
+  "csv_encoding": "cp1252",
+  "csv_credentials_file": "credentials.json",
+  "csv_spreadsheet_id": "",
+  "csv_sheet_name": "importXML",
+
+  // --- http ---
+  "user_agent": "CSV-Downloader/1.0",
+  "request_timeout": 120,
+
+  // --- unused other parameters ---
+  // "request_delay": 1.0,
+  // "keep_files": 2,
+  // "cleanup_patterns": [],
+  // "smtp_server": "smtp.gmail.com",
+  // "smtp_port": 587,
+  // "sender_email": "",
+  // "sender_password": "",
+  // "recipient_emails": [],
+  // "email_subject_prefix": "",
+  // "tophat_base_url": "https://www.askebsa.dol.gov/tophatplansearch/Home/Search",
+  // "tophat_records_per_page": 100,
+  // "tophat_propublica_delay": 0.5,
+  // "tophat_reference_file": "",
+  // "reginfo_rins": [],
+  // "reginfo_agenda_url": "https://www.reginfo.gov/public/do/eAgendaXmlReport",
+  // "trademark_api_key": "",
+  // "trademark_batch_size": 20,
+  // "trademark_max_empty_batches": 3,
+  // "trademark_max_results_per_email": 100,
+  // "trademark_rate_limit_delay": null,
+  // "trademark_filters": {},
+  // "scheduler_enabled": false,
+  // "scheduler_run_times": [],
+  // "scheduler_run_on_start": false
+
+  "_end": true
+}
